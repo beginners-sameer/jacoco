@@ -32,7 +32,11 @@
       <distribution>repo</distribution>
     </license>
   </licenses>
-
+  <properties>
+	<sonar.sources>src/main</sonar.sources>
+        <sonar.tests>src/test</sonar.tests>
+  </properties>
+      
   <developers>
     <developer>
       <id>mtnminds</id>
